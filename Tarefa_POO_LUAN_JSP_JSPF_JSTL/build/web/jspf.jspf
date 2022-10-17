@@ -1,0 +1,13 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<!-- Os arquivos ".jspf" são fragmentos JSP. 
+Eles são projetados para serem incluídos estaticamente em outro arquivo JSP, pois não compilam por conta própria 
+Em vez disso, JSPF contêm métodos e objetos especializados que os arquivos JSP importam e executam.-->
+<h3>Comando JSPF</h3>
+
+<!-- Objetivo:
+Quando você escreve uma função que será chamada com frequência, 
+colocá-la em seu próprio arquivo e fazer referência a ela economiza o tempo de copiá-la e colá-la diretamente em todos os seus projetos. 
+Separar o código de uma função do código-fonte que a está chamando torna seu código mais fácil de ler, editar e manter. 
+Os arquivos JSPF contêm o código para essas funções e os arquivos JSP chamam e executam essas funções.-->
